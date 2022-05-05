@@ -8,4 +8,12 @@ export class StudentsService {
   listAllStudents() {
     return this.prisma.student.findMany();
   }
+
+  getStudentById(id: string) {
+    return this.prisma.student.findUnique({
+      where: {
+        id,
+      },
+    });
+  }
 }
