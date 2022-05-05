@@ -32,6 +32,7 @@ type Query {
   me: Student!
   enrollments: [Enrollment!]!
   courses: [Course!]!
+  course(id: String!): Course!
 }
 
 type Mutation {
