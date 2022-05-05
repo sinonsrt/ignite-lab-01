@@ -28,5 +28,6 @@ scalar DateTime
 
 type Query {
   students: [Student!]!
+  enrollments: [Enrollment!]!
   courses: [Course!]!
 }
