@@ -3,4 +3,9 @@ interface GetByCourseAndStudentIdParams {
   studentId: string;
 }
 
-export { GetByCourseAndStudentIdParams };
+interface CreateEnrollmentParams {
+  courseId: string;
+  studentId: string;
+}
+
+export { GetByCourseAndStudentIdParams, CreateEnrollmentParams };
