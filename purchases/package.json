@@ -21,6 +21,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@apollo/federation": "^0.36.1",
     "@nestjs/apollo": "^10.0.9",
     "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^2.0.0",
@@ -32,7 +33,7 @@
     "@types/express-jwt": "^6.0.4",
     "apollo-server-express": "^3.6.7",
     "express-jwt": "^7.5.2",
-    "graphql": "^16.4.0",
+    "graphql": "15",
     "jwks-rsa": "^2.1.0",
     "kafkajs": "^2.0.0",
     "reflect-metadata": "^0.1.13",
