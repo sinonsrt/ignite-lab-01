@@ -16,13 +16,14 @@
     "lint": "eslint \"{src,apps,libs}/**/*.ts\" --fix"
   },
   "dependencies": {
-    "@apollo/gateway": "^0.48.3",
-    "@nestjs/apollo": "^10.0.8",
+    "@apollo/gateway": "^2.0.2",
+    "@nestjs/apollo": "^10.0.11",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
-    "@nestjs/graphql": "^10.0.8",
+    "@nestjs/graphql": "^10.0.11",
     "@nestjs/platform-express": "^8.0.0",
-    "apollo-server-express": "^3.6.7",
+    "apollo-server-express": "^3.7.0",
+    "graphql": "^16.5.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"

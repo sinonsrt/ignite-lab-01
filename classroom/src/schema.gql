@@ -21,7 +21,6 @@ type Course {
 type User {
   authUserId: ID!
   enrollments: [Enrollment!]!
-  enrollment: [Enrollment!]!
 }
 
 type Enrollment {

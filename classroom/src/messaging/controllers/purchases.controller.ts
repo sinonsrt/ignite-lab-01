@@ -20,7 +20,7 @@ export class PurchasesController {
     );
 
     if (!student) {
-      student = await this.studentsService.create({
+      student = await this.studentsService.createStudent({
         authUserId: payload.customer.authUserId,
       });
     }

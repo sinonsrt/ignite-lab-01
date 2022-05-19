@@ -7,7 +7,6 @@ import {
   ResolveField,
   Resolver,
 } from '@nestjs/graphql';
-import { PrismaService } from 'src/database/prisma/prisma.service';
 import { AuthorizationGuard } from 'src/http/auth/authorization.guard';
 import { AuthUser, CurrentUser } from 'src/http/auth/current-user';
 import { CustomersService } from 'src/services/customers.service';
